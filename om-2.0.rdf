@@ -13283,6 +13283,7 @@
     <owl:NamedIndividual rdf:about="http://theworldavatar.com/ontouom/megajoule_per_kilogram">
         <rdf:type rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/UnitDivision"/>
         <om:hasDenominator rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/kilogram"/>
+        <om:hasDimension rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/SpecificEnergy"/>
         <om:hasNumerator rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/megajoule"/>
         <om:alternativeSymbol>MJ kg-1</om:alternativeSymbol>
         <om:alternativeSymbol>MJ/kg</om:alternativeSymbol>
@@ -48054,8 +48055,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/AbsoluteMagnitude">
         <rdfs:comment xml:lang="en">Logarithmic measure of the brightness of an object as seen from a standard distance of 10 pc. Units usually not indicated (http://en.wikipedia.org/wiki/Magnitude_(astronomy).</rdfs:comment>
-        <om:symbol>M</om:symbol>
         <rdfs:label xml:lang="en">absolute magnitude</rdfs:label>
+        <om:symbol>M</om:symbol>
         <rdfs:label xml:lang="nl">absolute magnitude</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/AbsorbedDose">
@@ -48094,8 +48095,8 @@
         <rdfs:label xml:lang="en">activity</rdfs:label>
         <rdfs:comment xml:lang="en">Activity is the decay rate of a radioactive substance. It is a derived quantity in the International System of Units. Activity is 1 divided by time.</rdfs:comment>
         <om:alternativeLabel xml:lang="en">activity of a radionuclide</om:alternativeLabel>
-        <om:alternativeLabel xml:lang="en">activity (of a radionuclide)</om:alternativeLabel>
         <rdfs:label xml:lang="nl">activiteit</rdfs:label>
+        <om:alternativeLabel xml:lang="en">activity (of a radionuclide)</om:alternativeLabel>
         <om:symbol>A</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Admittance">
@@ -48166,15 +48167,15 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Angle">
         <om:alternativeSymbol>φ</om:alternativeSymbol>
-        <rdfs:label xml:lang="en">angle</rdfs:label>
         <om:alternativeSymbol>θ</om:alternativeSymbol>
+        <rdfs:label xml:lang="en">angle</rdfs:label>
         <om:alternativeLabel xml:lang="en">plane angle</om:alternativeLabel>
         <rdfs:label xml:lang="nl">hoek</rdfs:label>
         <om:alternativeSymbol>β</om:alternativeSymbol>
-        <om:alternativeSymbol>γ</om:alternativeSymbol>
         <rdfs:comment xml:lang="en">Angle is the ratio between an arc and its radius.</rdfs:comment>
-        <om:symbol>α</om:symbol>
+        <om:alternativeSymbol>γ</om:alternativeSymbol>
         <rdfs:label xml:lang="zh">角度</rdfs:label>
+        <om:symbol>α</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/AngularAcceleration">
         <rdfs:label xml:lang="en">angular acceleration</rdfs:label>
@@ -48186,12 +48187,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/AngularMomentum">
         <rdfs:label xml:lang="en">angular momentum</rdfs:label>
-        <om:alternativeLabel xml:lang="nl">hoekmoment</om:alternativeLabel>
         <om:alternativeSymbol>J</om:alternativeSymbol>
+        <om:alternativeLabel xml:lang="nl">hoekmoment</om:alternativeLabel>
+        <om:alternativeLabel xml:lang="nl">draaiimpuls</om:alternativeLabel>
         <rdfs:label xml:lang="nl">impulsmoment</rdfs:label>
         <om:alternativeLabel xml:lang="nl">draaimoment</om:alternativeLabel>
         <om:symbol>L</om:symbol>
-        <om:alternativeLabel xml:lang="nl">draaiimpuls</om:alternativeLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/AngularSize">
         <rdfs:label xml:lang="en">angular size</rdfs:label>
@@ -48268,8 +48269,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/BMagnitudeAtMaximumBrightness">
         <rdfs:comment xml:lang="en">Johnson B magnitude at maximum brightness (i.e. for a variable star). The Johnson B band is a standard filter in the blue area. The central wavelength is 440nm and the bandwidth is 100nm.  The filter to be used is the Corning 5030 filter plus the Schott GG13 filter.</rdfs:comment>
-        <om:symbol>B_max</om:symbol>
         <rdfs:label xml:lang="en">B magnitude at maximum brightness</rdfs:label>
+        <om:symbol>B_max</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/BMagnitudeAtMinimumBrightness">
         <rdfs:comment xml:lang="en">Johnson B magnitude at minimum brightness (i.e. for a variable star). The Johnson B band is a standard filter in the blue area. The central wavelength is 440nm and the bandwidth is 100nm.  The filter to be used is the Corning 5030 filter plus the Schott GG13 filter.</rdfs:comment>
@@ -48285,8 +48286,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/BetaWideMagnitude">
         <om:alternativeSymbol>β_wide</om:alternativeSymbol>
         <rdfs:comment xml:lang="en">β_wide  Magnitude in the Strömgren-Crawford photometric system with a peak wavelength at 485 nm and a peak-half-width of 12.9 nm.</rdfs:comment>
-        <rdfs:label xml:lang="en">β_wide magnitude</rdfs:label>
         <om:symbol>β_w</om:symbol>
+        <rdfs:label xml:lang="en">β_wide magnitude</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/BodyLabelMass">
         <rdfs:label xml:lang="en">body label mass</rdfs:label>
@@ -48333,8 +48334,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/BudStadiumDay4">
         <rdfs:comment xml:lang="nl">Knopstadium vaasdag 4 (code).</rdfs:comment>
         <om:alternativeLabel xml:lang="en">sday4</om:alternativeLabel>
-        <rdfs:label xml:lang="en">bud stadium day 4</rdfs:label>
         <rdfs:label xml:lang="nl">knopstadium dag 4</rdfs:label>
+        <rdfs:label xml:lang="en">bud stadium day 4</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/BudStadiumDay7">
         <rdfs:label xml:lang="en">bud stadium day 7</rdfs:label>
@@ -48354,8 +48355,8 @@
         <rdfs:label xml:lang="en">cap mass</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Capacitance">
-        <rdfs:comment xml:lang="en">Capacitance is the ability to hold electrical charge. It is a derived quantity in the International System of Units. Capacitance is electric charge divided by electric potential.</rdfs:comment>
         <rdfs:label xml:lang="nl">capaciteit</rdfs:label>
+        <rdfs:comment xml:lang="en">Capacitance is the ability to hold electrical charge. It is a derived quantity in the International System of Units. Capacitance is electric charge divided by electric potential.</rdfs:comment>
         <om:symbol>C</om:symbol>
         <om:alternativeLabel xml:lang="en">electric capacitance</om:alternativeLabel>
         <om:alternativeLabel xml:lang="nl">electrische capaciteit</om:alternativeLabel>
@@ -48427,8 +48428,8 @@
         <rdfs:label xml:lang="nl">oorzaak einde vaasleven misvormde knoppen</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CauseEndOfVaseLifeMalformedFlowers">
-        <om:alternativeLabel xml:lang="en">malformed flowers</om:alternativeLabel>
         <rdfs:label xml:lang="en">cause end of vase life malformed flowers</rdfs:label>
+        <om:alternativeLabel xml:lang="en">malformed flowers</om:alternativeLabel>
         <rdfs:comment xml:lang="nl">Oorzaak einde vaasleven misvormde bloemen (1/0).</rdfs:comment>
         <rdfs:label xml:lang="nl">oorzaak einde vaasleven misvormde bloemen</rdfs:label>
     </rdf:Description>
@@ -48439,8 +48440,8 @@
         <rdfs:label xml:lang="en">cause end of vase life nonturgid flowers</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CauseEndOfVaseLifeNonturgidLeaves">
-        <rdfs:label xml:lang="nl">oorzaak einde vaasleven slappe bladeren</rdfs:label>
         <rdfs:label xml:lang="en">cause end of vase life nonturgid leaves</rdfs:label>
+        <rdfs:label xml:lang="nl">oorzaak einde vaasleven slappe bladeren</rdfs:label>
         <om:alternativeLabel xml:lang="en">nonturgid leaves</om:alternativeLabel>
         <rdfs:comment xml:lang="nl">Oorzaak einde vaasleven slappe bladeren (1/0).</rdfs:comment>
     </rdf:Description>
@@ -48457,8 +48458,8 @@
         <om:alternativeLabel xml:lang="en">rotten leaves</om:alternativeLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CauseEndOfVaseLifeWiltedFlowers">
-        <rdfs:comment xml:lang="nl">Oorzaak einde vaasleven bloemverwelking (1/0).</rdfs:comment>
         <rdfs:label xml:lang="en">cause end of vase life wilted flowers</rdfs:label>
+        <rdfs:comment xml:lang="nl">Oorzaak einde vaasleven bloemverwelking (1/0).</rdfs:comment>
         <rdfs:label xml:lang="nl">oorzaak einde vaasleven bloemverwelking</rdfs:label>
         <om:alternativeLabel xml:lang="en">wilted flowers</om:alternativeLabel>
     </rdf:Description>
@@ -48469,8 +48470,8 @@
         <rdfs:label xml:lang="nl">oorzaak einde vaasleven bladverwelking</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CauseEndOfVaseLifeYellowLeaves">
-        <rdfs:label xml:lang="en">cause end of vase life yellow leaves</rdfs:label>
         <om:alternativeLabel xml:lang="en">yellow leaves</om:alternativeLabel>
+        <rdfs:label xml:lang="en">cause end of vase life yellow leaves</rdfs:label>
         <rdfs:comment xml:lang="nl">Oorzaak einde vaasleven bladvergeling (1/0).</rdfs:comment>
         <rdfs:label xml:lang="nl">oorzaak einde vaasleven bladvergeling</rdfs:label>
     </rdf:Description>
@@ -48481,8 +48482,8 @@
         <rdfs:label xml:lang="zh">摄氏温标</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperature">
-        <om:alternativeSymbol>θ</om:alternativeSymbol>
         <om:symbol>t</om:symbol>
+        <om:alternativeSymbol>θ</om:alternativeSymbol>
         <rdfs:label xml:lang="nl">Celsiustemperatuur</rdfs:label>
         <rdfs:label xml:lang="en">Celsius temperature</rdfs:label>
     </rdf:Description>
@@ -48535,8 +48536,8 @@
         <rdfs:label xml:lang="en">contact angle</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CosmologicalConstant">
-        <om:symbol>Λ</om:symbol>
         <rdfs:label xml:lang="en">cosmological constant</rdfs:label>
+        <om:symbol>Λ</om:symbol>
         <rdfs:comment xml:lang="en">The cosmological constant.</rdfs:comment>
         <rdfs:label xml:lang="nl">kosmologische constante</rdfs:label>
     </rdf:Description>
@@ -48551,8 +48552,8 @@
         <rdfs:label xml:lang="en">coverage</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CowlingNumber">
-        <om:alternativeSymbol>Co2</om:alternativeSymbol>
         <om:symbol>Co</om:symbol>
+        <om:alternativeSymbol>Co2</om:alternativeSymbol>
         <rdfs:label xml:lang="en">Cowling number</rdfs:label>
         <om:alternativeLabel xml:lang="en">second Cowling number</om:alternativeLabel>
     </rdf:Description>
@@ -48569,8 +48570,8 @@
         <rdfs:comment xml:lang="en">Current density is the density of flow of a conserved charge. It is a derived quantity in the International System of Units. Current density is electric current divided by area.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/CurvatureConstant">
-        <rdfs:label xml:lang="en">curvature constant</rdfs:label>
         <rdfs:comment xml:lang="en">The curvature constant k=-1, 0, or 1.</rdfs:comment>
+        <rdfs:label xml:lang="en">curvature constant</rdfs:label>
         <om:symbol>k</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Cut-OffWavelength">
@@ -48602,9 +48603,9 @@
         <om:alternativeLabel xml:lang="en">mass density</om:alternativeLabel>
         <rdfs:label xml:lang="en">density</rdfs:label>
         <om:alternativeLabel xml:lang="en">concentration (w/v)</om:alternativeLabel>
-        <om:alternativeLabel xml:lang="nl">soortelijke massa</om:alternativeLabel>
         <rdfs:comment xml:lang="en">Density is the concentration of matter. It is a derived quantity in the International System of Units. Density is mass divided by volume.</rdfs:comment>
         <om:symbol>ρ</om:symbol>
+        <om:alternativeLabel xml:lang="nl">soortelijke massa</om:alternativeLabel>
         <rdfs:label xml:lang="nl">dichtheid</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/DensityParameter">
@@ -48648,8 +48649,8 @@
         <om:symbol>D</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Diameter">
-        <rdfs:label xml:lang="zh">直径</rdfs:label>
         <rdfs:label xml:lang="en">diameter</rdfs:label>
+        <rdfs:label xml:lang="zh">直径</rdfs:label>
         <rdfs:label xml:lang="nl">diameter</rdfs:label>
         <om:symbol>d</om:symbol>
     </rdf:Description>
@@ -48721,8 +48722,8 @@
         <rdfs:label xml:lang="nl">dynamische viscositeit</rdfs:label>
         <om:alternativeSymbol>η</om:alternativeSymbol>
         <rdfs:label xml:lang="en">dynamic viscosity</rdfs:label>
-        <rdfs:comment xml:lang="en">Viscosity is the definite resistance to change of form of many materials.</rdfs:comment>
         <om:symbol>μ</om:symbol>
+        <rdfs:comment xml:lang="en">Viscosity is the definite resistance to change of form of many materials.</rdfs:comment>
         <om:unofficialLabel>viscosity</om:unofficialLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Eccentricity">
@@ -48747,8 +48748,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ElasticityTensor">
         <rdfs:label xml:lang="nl">elasticiteitstensor</rdfs:label>
-        <om:symbol>c_ijkl</om:symbol>
         <om:alternativeLabel xml:lang="en">stiffness tensor</om:alternativeLabel>
+        <om:symbol>c_ijkl</om:symbol>
         <rdfs:label xml:lang="en">elasticity tensor</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ElectricCharge">
@@ -48762,12 +48763,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ElectricChargeDensity">
         <rdfs:label xml:lang="en">electric charge density</rdfs:label>
-        <om:alternativeLabel xml:lang="en">charge density</om:alternativeLabel>
         <rdfs:comment xml:lang="en">Electric charge density is the amount of electric charge in a volume. It is a derived quantity in the International System of Units. Electric charge density is electric charge divided by volume.</rdfs:comment>
+        <om:alternativeLabel xml:lang="en">charge density</om:alternativeLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ElectricCurrent">
-        <rdfs:label xml:lang="en">electric current</rdfs:label>
         <om:symbol>I</om:symbol>
+        <rdfs:label xml:lang="en">electric current</rdfs:label>
         <rdfs:comment xml:lang="en">Electric current is the flow of electric charge. It is a base quantity in the International System of Units. Electric current is electric charge divided by time.</rdfs:comment>
         <om:alternativeLabel xml:lang="en">current</om:alternativeLabel>
         <om:alternativeSymbol>i</om:alternativeSymbol>
@@ -48781,8 +48782,8 @@
         <rdfs:label xml:lang="en">electric field</rdfs:label>
         <rdfs:label xml:lang="nl">electrisch veld</rdfs:label>
         <om:symbol>E</om:symbol>
-        <om:alternativeLabel xml:lang="en">electric field strength</om:alternativeLabel>
         <rdfs:comment xml:lang="en">Electric field is a property of the space surrounding an electric charge or in the presence of a time-varying magnetic field which exerts a forceon other electrically charged objects.</rdfs:comment>
+        <om:alternativeLabel xml:lang="en">electric field strength</om:alternativeLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ElectricFluxDensity">
         <rdfs:label xml:lang="en">electric flux density</rdfs:label>
@@ -48823,8 +48824,8 @@
         <om:alternativeSymbol>emf</om:alternativeSymbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ElectronTemperature">
-        <om:alternativeLabel xml:lang="en">kinetic temperature</om:alternativeLabel>
         <rdfs:comment xml:lang="en">The temperature determined by the mean kinetic energy of free electrons in a plasma; also known as kinetic temperature.</rdfs:comment>
+        <om:alternativeLabel xml:lang="en">kinetic temperature</om:alternativeLabel>
         <rdfs:label xml:lang="en">electron temperature</rdfs:label>
         <om:symbol>T_e</om:symbol>
         <om:alternativeSymbol>T_k</om:alternativeSymbol>
@@ -48833,8 +48834,8 @@
         <om:alternativeLabel xml:lang="en">oblateness</om:alternativeLabel>
         <rdfs:label xml:lang="en">ellipticity</rdfs:label>
         <rdfs:comment xml:lang="en">A measure of the amount by which an object, such as a planet or a galaxy, deviates from a perfect sphere.</rdfs:comment>
-        <om:alternativeLabel xml:lang="en">flattening</om:alternativeLabel>
         <om:symbol>f</om:symbol>
+        <om:alternativeLabel xml:lang="en">flattening</om:alternativeLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Energy">
         <rdfs:label xml:lang="nl">energie</rdfs:label>
@@ -48852,9 +48853,9 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Enthalpy">
         <rdfs:label xml:lang="zh">焓</rdfs:label>
         <om:symbol>H</om:symbol>
+        <rdfs:label xml:lang="nl">enthalpie</rdfs:label>
         <rdfs:label xml:lang="en">enthalpy</rdfs:label>
         <rdfs:comment xml:lang="en">Enthalpy is the sum of the internal energy of a system plus the product of the pressure-volume work done on the system.</rdfs:comment>
-        <rdfs:label xml:lang="nl">enthalpie</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Entropy">
         <rdfs:label xml:lang="nl">entropie</rdfs:label>
@@ -48910,8 +48911,8 @@
         <om:symbol>A_B</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ExtinctionInU">
-        <om:symbol>A_U</om:symbol>
         <rdfs:label xml:lang="en">extinction in U</rdfs:label>
+        <om:symbol>A_U</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ExtinctionInV">
         <om:symbol>A_V</om:symbol>
@@ -48934,8 +48935,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Firmness-Penetrometer-Method1">
         <rdfs:label xml:lang="en">firmness (penetrometer) (method 1)</rdfs:label>
         <om:alternativeLabel xml:lang="en">firmness_pen_1</om:alternativeLabel>
-        <rdfs:label xml:lang="nl">stevigheid (penetrometer) (methode 1)</rdfs:label>
         <rdfs:comment xml:lang="nl">Stevigheid gemeten met penetrometer methode 1.</rdfs:comment>
+        <rdfs:label xml:lang="nl">stevigheid (penetrometer) (methode 1)</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Firmness-Penetrometer-Method2">
         <rdfs:comment xml:lang="nl">Stevigheid gemeten met penetrometer methode 2.</rdfs:comment>
@@ -48977,9 +48978,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Frequency">
         <rdfs:comment xml:lang="en">Frequency is a measure of the number of occurrences of a repeating event per unit time.</rdfs:comment>
-        <om:unofficialAbbreviation>freq</om:unofficialAbbreviation>
         <rdfs:label xml:lang="zh">频率</rdfs:label>
         <om:alternativeSymbol>ν</om:alternativeSymbol>
+        <om:unofficialAbbreviation>freq</om:unofficialAbbreviation>
         <rdfs:label xml:lang="en">frequency</rdfs:label>
         <rdfs:label xml:lang="nl">frequentie</rdfs:label>
         <om:symbol>f</om:symbol>
@@ -49080,8 +49081,8 @@
         <rdfs:label xml:lang="zh">热容量</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/HeatFlowRate">
-        <om:alternativeSymbol>q</om:alternativeSymbol>
         <om:symbol>Φ</om:symbol>
+        <om:alternativeSymbol>q</om:alternativeSymbol>
         <rdfs:label xml:lang="en">heat flow rate</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/HeatFluxDensity">
@@ -49148,8 +49149,8 @@
         <rdfs:label xml:lang="nl">informatiecapaciteit</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/InitialMassFunction">
-        <rdfs:comment xml:lang="en">The number of stars in mass fraction dM around mass M. Used in Salpeter&apos;s Initial Mass Function (IMF).</rdfs:comment>
         <om:symbol>IMF</om:symbol>
+        <rdfs:comment xml:lang="en">The number of stars in mass fraction dM around mass M. Used in Salpeter&apos;s Initial Mass Function (IMF).</rdfs:comment>
         <rdfs:label xml:lang="en">initial mass function</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/IntegratedMagnitude">
@@ -49159,8 +49160,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/InternalEnergy">
         <rdfs:label xml:lang="en">internal energy</rdfs:label>
         <om:symbol>U</om:symbol>
-        <rdfs:label xml:lang="nl">inwendige energie</rdfs:label>
         <rdfs:comment xml:lang="en">The internal energy of a thermodynamic system, or a body with well-defined boundaries is the total of the kinetic energy due to the motion of molecules (translational, rotational, vibrational) and the potential energy associated with the vibrational and electric energy of atoms within molecules or crystals.</rdfs:comment>
+        <rdfs:label xml:lang="nl">inwendige energie</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/IntrinsicColourIndex">
         <rdfs:comment xml:lang="en">The colour index a star would have in the absence of interstellar extinction (reddening). It is assumed that all stars of the same spectral type and luminosity class have the same colour index.</rdfs:comment>
@@ -49188,8 +49189,8 @@
         <rdfs:comment xml:lang="en">A magnitude measured in one of Johnson&apos;s standard passbands (using a standard filter, i.e. U, B, or V).</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/KelvinScale">
-        <rdfs:label xml:lang="zh">开氏温标</rdfs:label>
         <rdfs:label xml:lang="nl">Kelvinschaal</rdfs:label>
+        <rdfs:label xml:lang="zh">开氏温标</rdfs:label>
         <rdfs:label xml:lang="en">Kelvin scale</rdfs:label>
         <om:alternativeLabel xml:lang="en">International Kelvin Temperature scale of 1990</om:alternativeLabel>
     </rdf:Description>
@@ -49205,8 +49206,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/KineticEnergy">
         <om:alternativeLabel xml:lang="nl">bewegingsenergie</om:alternativeLabel>
-        <om:alternativeSymbol>T</om:alternativeSymbol>
         <rdfs:label xml:lang="nl">kinetische energie</rdfs:label>
+        <om:alternativeSymbol>T</om:alternativeSymbol>
         <rdfs:comment xml:lang="en">Kinetic energy is energy due to motion.</rdfs:comment>
         <rdfs:label xml:lang="en">kinetic energy</rdfs:label>
         <om:symbol>E_k</om:symbol>
@@ -49228,8 +49229,8 @@
         <rdfs:label xml:lang="en">lactose mass fraction</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Length">
-        <rdfs:comment xml:lang="en">Length is the amount of space between two geographical points along a curve. It is a base quantity in the International System of Units and other systems of units. Length is speed times time. The metre, a base unit of length in the International System of Units, is defined in terms of speed of light during a certain time interval.</rdfs:comment>
         <om:symbol>l</om:symbol>
+        <rdfs:comment xml:lang="en">Length is the amount of space between two geographical points along a curve. It is a base quantity in the International System of Units and other systems of units. Length is speed times time. The metre, a base unit of length in the International System of Units, is defined in terms of speed of light during a certain time interval.</rdfs:comment>
         <rdfs:label xml:lang="zh">长度</rdfs:label>
         <rdfs:label xml:lang="en">length</rdfs:label>
         <om:alternativeSymbol>L</om:alternativeSymbol>
@@ -49237,8 +49238,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/LewisNumber">
         <rdfs:label xml:lang="en">Lewis number</rdfs:label>
-        <om:symbol>Le</om:symbol>
         <rdfs:label xml:lang="nl">getal van Lewis</rdfs:label>
+        <om:symbol>Le</om:symbol>
         <rdfs:comment xml:lang="en">The Lewis number is a dimensionless number defined as the ratio of thermal diffusivity to mass diffusivity.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/LightTime">
@@ -49260,8 +49261,8 @@
         <rdfs:label xml:lang="en">lipophilicity</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/LocustBeanGumMassFraction">
-        <rdfs:comment xml:lang="en">The fraction of the mass of locust bean gum in a phenomenon</rdfs:comment>
         <rdfs:label xml:lang="en">locust bean gum mass fraction</rdfs:label>
+        <rdfs:comment xml:lang="en">The fraction of the mass of locust bean gum in a phenomenon</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/LossModulus">
         <rdfs:label xml:lang="en">loss modulus</rdfs:label>
@@ -49304,10 +49305,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/MagneticField">
         <om:alternativeLabel xml:lang="en">magnetic field strength</om:alternativeLabel>
-        <om:symbol>H</om:symbol>
         <rdfs:label xml:lang="en">magnetic field</rdfs:label>
-        <om:alternativeLabel xml:lang="en">magnetic field intensity</om:alternativeLabel>
+        <om:symbol>H</om:symbol>
         <om:alternativeLabel xml:lang="en">magnetizing field</om:alternativeLabel>
+        <om:alternativeLabel xml:lang="en">magnetic field intensity</om:alternativeLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/MagneticFlux">
         <rdfs:comment xml:lang="en">Magnetic flux through any area perpendicular to a magnetic field is the product of the area by the field strength.</rdfs:comment>
@@ -49333,9 +49334,9 @@
         <rdfs:label xml:lang="en">magnitude</rdfs:label>
         <rdfs:label xml:lang="nl">magnitude</rdfs:label>
         <om:symbol>m</om:symbol>
-        <rdfs:comment xml:lang="en">Reverse logarithmic measure of the brightness of an object.</rdfs:comment>
         <om:longcomment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">The magnitude scale was originally created by Hipparchos of Nicea (160-127 BCE) and was measured by comparing the brightness between stars. Initially this was done inaccurately by eye but is currently done by using photoelectric photometers or even more recently by CCDs. Hipparchos divided the stars into six magnitude (brightness classes), the brightest stars being assigned to the first class and the faintest to the sixth class. By about the middle 1800s it became apparent that the traditional magnitude scale is close to a logarithmic scale with base 2.5. This is due to the fact that the response of the eye is nearly logarithmic. N.R. Pogson formalised the magnitude scale to closely match the traditional (visual) scale. The magnitude of Vega (α Lyrae, HD 172167) is defined to be 0 in all wavelengths and passbands, although in practice this can only be an approximation. The zero point is now defined using multiple standard stars from the north polar sequence (non-variable stars within 2 degrees of the north celestial pole) or secondary standard stars from other parts of the sky. Please note that the scale is inverted, objects of magnitude 1 have a higher luminous flux than objects of magnitude 5. Stars of magnitude 6 are just visible to the naked eye under good observing conditions.
     The units of magnitude, also called magnitude, are usually not indicated except when indicating small magnitude differences when milli- or micromagnitudes are used.</om:longcomment>
+        <rdfs:comment xml:lang="en">Reverse logarithmic measure of the brightness of an object.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/MagnitudeAtMaximumBrightness">
         <om:symbol>m_max</om:symbol>
@@ -49391,12 +49392,12 @@
         <om:symbol>b</om:symbol>
         <rdfs:label xml:lang="en">molality</rdfs:label>
         <rdfs:label xml:lang="nl">molaliteit</rdfs:label>
-        <om:alternativeSymbol>m</om:alternativeSymbol>
         <om:alternativeLabel xml:lang="en">molality of solution</om:alternativeLabel>
+        <om:alternativeSymbol>m</om:alternativeSymbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/MolarEnergy">
-        <rdfs:label xml:lang="en">molar energy</rdfs:label>
         <rdfs:label xml:lang="nl">molaire energie</rdfs:label>
+        <rdfs:label xml:lang="en">molar energy</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/MolarEntropy">
         <rdfs:label xml:lang="en">molar entropy</rdfs:label>
@@ -49418,8 +49419,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/MomentOfForce">
         <rdfs:comment xml:lang="en">Moment of force is the effectiveness of a force to produce rotation about an axis measured by the product of the force and the perpendicular distance from the line of action of the force to the axis.</rdfs:comment>
-        <om:alternativeLabel xml:lang="en">moment</om:alternativeLabel>
         <rdfs:label xml:lang="en">moment of force</rdfs:label>
+        <om:alternativeLabel xml:lang="en">moment</om:alternativeLabel>
         <om:symbol>M</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/MomentOfInertia">
@@ -49611,8 +49612,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberDryBuds">
         <rdfs:label xml:lang="en">number dry buds</rdfs:label>
         <rdfs:comment xml:lang="nl">Aantal verdroogde knoppen.</rdfs:comment>
-        <rdfs:label xml:lang="nl">aantal verdroogde knoppen</rdfs:label>
         <om:alternativeLabel xml:lang="en">#dry buds</om:alternativeLabel>
+        <rdfs:label xml:lang="nl">aantal verdroogde knoppen</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberDryFlowers">
         <rdfs:label xml:lang="en">number dry flowers</rdfs:label>
@@ -49636,8 +49637,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberExternalBrowning2">
         <om:alternativeLabel xml:lang="en">ext_brown_2</om:alternativeLabel>
-        <rdfs:comment xml:lang="nl">Voorbeeld avocado Hass: code 2 poster.</rdfs:comment>
         <rdfs:label xml:lang="en">number external browning 2</rdfs:label>
+        <rdfs:comment xml:lang="nl">Voorbeeld avocado Hass: code 2 poster.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberExternalBrowning3">
         <rdfs:label xml:lang="en">number external browning 3</rdfs:label>
@@ -49685,8 +49686,8 @@
         <rdfs:label xml:lang="en">number manual firmness 0</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberManualFirmness0.5">
-        <rdfs:comment xml:lang="nl">Firmness manueel: 0.5 = hard.</rdfs:comment>
         <om:alternativeLabel xml:lang="en">firmness_m_0.5</om:alternativeLabel>
+        <rdfs:comment xml:lang="nl">Firmness manueel: 0.5 = hard.</rdfs:comment>
         <rdfs:label xml:lang="en">number manual firmness 0.5</rdfs:label>
         <rdfs:label xml:lang="nl">aantal manuele stevigheid 0.5</rdfs:label>
     </rdf:Description>
@@ -49699,8 +49700,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberManualFirmness1.5">
         <rdfs:label xml:lang="nl">aantal manuele stevigheid 1.5</rdfs:label>
         <om:alternativeLabel xml:lang="en">firmness_m_1.5</om:alternativeLabel>
-        <rdfs:comment xml:lang="nl">Firmness manueel: 1.5 = stevig.</rdfs:comment>
         <rdfs:label xml:lang="en">number manual firmness 1.5</rdfs:label>
+        <rdfs:comment xml:lang="nl">Firmness manueel: 1.5 = stevig.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberManualFirmness2">
         <rdfs:label xml:lang="en">number manual firmness 2</rdfs:label>
@@ -49723,8 +49724,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberManualFirmness3.5">
         <rdfs:label xml:lang="nl">aantal manuele stevigheid 3.5</rdfs:label>
         <om:alternativeLabel xml:lang="en">firmness_m_3.5</om:alternativeLabel>
-        <rdfs:label xml:lang="en">number manual firmness 3.5</rdfs:label>
         <rdfs:comment xml:lang="nl">Firmness manueel: 3.5 = te zacht.</rdfs:comment>
+        <rdfs:label xml:lang="en">number manual firmness 3.5</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberManualFirmness4">
         <rdfs:comment xml:lang="nl">Firmness manueel: 4 = week.</rdfs:comment>
@@ -49760,8 +49761,8 @@
         <rdfs:label xml:lang="en">number pulp browning</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberPulpBrowning1">
-        <om:alternativeLabel xml:lang="en">pulp_1</om:alternativeLabel>
         <rdfs:label xml:lang="en">number pulp browning 1</rdfs:label>
+        <om:alternativeLabel xml:lang="en">pulp_1</om:alternativeLabel>
         <rdfs:comment xml:lang="nl">Voorbeeld avocado Hass: code 1 poster pulp browning.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberPulpBrowning2">
@@ -49771,8 +49772,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberPulpBrowning3">
         <rdfs:comment xml:lang="nl">Voorbeeld avocado Hass: code 3 poster pulp browning.</rdfs:comment>
-        <rdfs:label xml:lang="en">number pulp browning 3</rdfs:label>
         <om:alternativeLabel xml:lang="en">pulp_3</om:alternativeLabel>
+        <rdfs:label xml:lang="en">number pulp browning 3</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberPulpBrowning4">
         <rdfs:comment xml:lang="nl">Voorbeeld avocado Hass: code 4 poster pulp browning.</rdfs:comment>
@@ -49780,8 +49781,8 @@
         <rdfs:label xml:lang="en">number pulp browning 4</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberPulpBrowning5">
-        <om:alternativeLabel xml:lang="en">pulp_5</om:alternativeLabel>
         <rdfs:label xml:lang="en">number pulp browning 5</rdfs:label>
+        <om:alternativeLabel xml:lang="en">pulp_5</om:alternativeLabel>
         <rdfs:comment xml:lang="nl">Voorbeeld avocado Hass: code 5 poster pulp browning.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/NumberRottenFlowers">
@@ -49883,8 +49884,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/PeriodOfVariability">
         <rdfs:comment xml:lang="en">The duration of one cycle in a (semi) periodical star.</rdfs:comment>
-        <rdfs:label xml:lang="en">period of variability</rdfs:label>
         <om:symbol>P</om:symbol>
+        <rdfs:label xml:lang="en">period of variability</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Permeability-EarthScience">
         <om:alternativeLabel xml:lang="nl">intrinsieke permeabiliteit</om:alternativeLabel>
@@ -49942,8 +49943,8 @@
         <rdfs:comment xml:lang="en">The apparent angular displacement of the observed position of a celestial object produced by the motion of the observer and the actual motion of the observed object.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/PotassiumSorbateMassFraction">
-        <rdfs:comment xml:lang="en">The fraction of the mass of potassium sorbate in a phenomenon</rdfs:comment>
         <rdfs:label xml:lang="en">potassium sorbate mass fraction</rdfs:label>
+        <rdfs:comment xml:lang="en">The fraction of the mass of potassium sorbate in a phenomenon</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/PotentialDifference">
         <rdfs:label xml:lang="en">potential difference</rdfs:label>
@@ -49952,10 +49953,10 @@
         <om:symbol>U</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/PotentialEnergy">
+        <om:alternativeSymbol>V</om:alternativeSymbol>
         <om:alternativeSymbol>Φ</om:alternativeSymbol>
         <rdfs:label xml:lang="zh">势能</rdfs:label>
         <rdfs:label xml:lang="nl">potentiële energie</rdfs:label>
-        <om:alternativeSymbol>V</om:alternativeSymbol>
         <om:alternativeSymbol>U</om:alternativeSymbol>
         <rdfs:comment xml:lang="en">Potential energy is energy due to position of one body with respect to another or to the relative parts of the same body.</rdfs:comment>
         <rdfs:label xml:lang="en">potential energy</rdfs:label>
@@ -49963,10 +49964,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Power">
         <rdfs:comment xml:lang="en">Power is the time rate at which work is done. It is a derived quantity in the International System of Units. Power is energy divided by time.</rdfs:comment>
-        <om:symbol>P</om:symbol>
         <rdfs:label xml:lang="en">power</rdfs:label>
-        <rdfs:label xml:lang="nl">vermogen</rdfs:label>
+        <om:symbol>P</om:symbol>
         <rdfs:label xml:lang="zh">功率</rdfs:label>
+        <rdfs:label xml:lang="nl">vermogen</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/PowerDensity">
         <rdfs:label xml:lang="en">power density</rdfs:label>
@@ -49981,8 +49982,8 @@
         <rdfs:label xml:lang="en">pressure</rdfs:label>
         <rdfs:comment xml:lang="en">Pressure is the force applied to or distributed over a surface. It is a derived quantity in the International System of Units. Pressure is force divided by area.</rdfs:comment>
         <om:symbol>p</om:symbol>
-        <om:alternativeSymbol>P</om:alternativeSymbol>
         <rdfs:label xml:lang="zh">压力</rdfs:label>
+        <om:alternativeSymbol>P</om:alternativeSymbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ProteinMassFraction">
         <rdfs:comment xml:lang="en">The fraction of the mass of protein in a phenomenon</rdfs:comment>
@@ -50042,11 +50043,11 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/RadiantFlux">
         <om:alternativeSymbol>P</om:alternativeSymbol>
         <om:alternativeLabel xml:lang="en">radiant power</om:alternativeLabel>
-        <rdfs:label xml:lang="en">radiant flux</rdfs:label>
         <om:alternativeLabel xml:lang="en">radiant energy flux</om:alternativeLabel>
+        <rdfs:label xml:lang="en">radiant flux</rdfs:label>
         <om:symbol>Φ</om:symbol>
-        <rdfs:comment xml:lang="en">Radiant flux is the measure of the total power of electromagnetic radiation.</rdfs:comment>
         <om:alternativeSymbol>Φ_e</om:alternativeSymbol>
+        <rdfs:comment xml:lang="en">Radiant flux is the measure of the total power of electromagnetic radiation.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/RadiantIntensity">
         <om:symbol>I</om:symbol>
@@ -50219,12 +50220,12 @@
         <rdfs:comment xml:lang="en">Shear stress is a stress that is applied parallel or tangential to a face of a material.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/SolidAngle">
-        <rdfs:label xml:lang="zh">立体角</rdfs:label>
         <om:symbol>Ω</om:symbol>
+        <rdfs:label xml:lang="zh">立体角</rdfs:label>
         <rdfs:label xml:lang="en">solid angle</rdfs:label>
         <rdfs:comment xml:lang="en">Solid angle is the ratio of the surface of a portion of a sphere enclosed by the conical surface that forms an angle to the square of the radius of the sphere.</rdfs:comment>
-        <om:alternativeSymbol>ω</om:alternativeSymbol>
         <rdfs:label xml:lang="nl">ruimtehoek</rdfs:label>
+        <om:alternativeSymbol>ω</om:alternativeSymbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/SoyBeanMassFraction">
         <rdfs:label xml:lang="en">soy bean mass fraction</rdfs:label>
@@ -50275,8 +50276,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/SpecificHeatCapacity">
         <om:alternativeSymbol>c_v</om:alternativeSymbol>
         <rdfs:label xml:lang="nl">soortelijke warmte</rdfs:label>
-        <rdfs:label xml:lang="en">specific heat capacity</rdfs:label>
         <om:alternativeLabel xml:lang="nl">specifieke warmte</om:alternativeLabel>
+        <rdfs:label xml:lang="en">specific heat capacity</rdfs:label>
         <om:symbol>c_p</om:symbol>
         <om:alternativeLabel xml:lang="nl">specifieke warmtecapaciteit</om:alternativeLabel>
     </rdf:Description>
@@ -50312,8 +50313,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/SpecificVolume">
         <rdfs:label xml:lang="en">specific volume</rdfs:label>
-        <rdfs:label xml:lang="nl">soortelijk volume</rdfs:label>
         <om:alternativeLabel xml:lang="en">concentration (v/w)</om:alternativeLabel>
+        <rdfs:label xml:lang="nl">soortelijk volume</rdfs:label>
         <rdfs:comment xml:lang="en">Specific volume is volume per unit mass.</rdfs:comment>
         <om:symbol>v</om:symbol>
         <om:alternativeLabel xml:lang="nl">specifiek volume</om:alternativeLabel>
@@ -50461,10 +50462,10 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ThermalConductivity">
         <om:symbol>κ</om:symbol>
         <rdfs:comment xml:lang="en">Termal conductivity indicates the ability of a material to conduct heat.</rdfs:comment>
-        <om:alternativeSymbol>λ</om:alternativeSymbol>
         <rdfs:label xml:lang="en">thermal conductivity</rdfs:label>
-        <om:alternativeSymbol>k</om:alternativeSymbol>
         <om:alternativeSymbol>K</om:alternativeSymbol>
+        <om:alternativeSymbol>k</om:alternativeSymbol>
+        <om:alternativeSymbol>λ</om:alternativeSymbol>
         <rdfs:label xml:lang="nl">thermische geleidbaarheid</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ThermalDiffusivity">
@@ -50484,8 +50485,8 @@
         <om:symbol>T</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Thickness">
-        <om:symbol>d</om:symbol>
         <rdfs:label xml:lang="nl">dikte</rdfs:label>
+        <om:symbol>d</om:symbol>
         <om:alternativeSymbol>δ</om:alternativeSymbol>
         <rdfs:label xml:lang="en">thickness</rdfs:label>
     </rdf:Description>
@@ -50518,16 +50519,16 @@
         <rdfs:label xml:lang="zh">扭矩</rdfs:label>
         <om:symbol>T</om:symbol>
         <rdfs:label xml:lang="en">torque</rdfs:label>
-        <rdfs:label xml:lang="nl">koppel</rdfs:label>
         <rdfs:comment xml:lang="en">Torque is the effectiveness of a force to produce rotation about an axis, measured by the product of the force and the perpendicular distance from the line of action of the force to the axis.</rdfs:comment>
+        <rdfs:label xml:lang="nl">koppel</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/Total3DStartEndDistance">
         <rdfs:label xml:lang="en">total 3D start-end distance</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/TotalDensityParameter">
         <rdfs:label xml:lang="en">total density parameter</rdfs:label>
-        <om:symbol>Ω_T</om:symbol>
         <rdfs:comment xml:lang="en">The total density parameter.</rdfs:comment>
+        <om:symbol>Ω_T</om:symbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/TotalDistanceTravelled">
         <rdfs:label xml:lang="en">total distance travelled</rdfs:label>
@@ -50554,8 +50555,8 @@
         <rdfs:label xml:lang="en">true distance modulus</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/TweenMassFraction">
-        <rdfs:comment xml:lang="en">The fraction of the mass of tween in a phenomenon</rdfs:comment>
         <rdfs:label xml:lang="en">tween mass fraction</rdfs:label>
+        <rdfs:comment xml:lang="en">The fraction of the mass of tween in a phenomenon</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/TychoBroadbandMagnitude">
         <om:symbol>T</om:symbol>
@@ -50581,8 +50582,8 @@
         <om:alternativeSymbol>m_V</om:alternativeSymbol>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/VMagnitudeAtMaximumBrightness">
-        <om:symbol>V_max</om:symbol>
         <rdfs:label xml:lang="en">V magnitude at maximum brightness</rdfs:label>
+        <om:symbol>V_max</om:symbol>
         <rdfs:comment xml:lang="en">Johnson V magnitude (apparent) at maximum brightness (i.e. for a variable star). The Johnson V band is a standard filter in the visual area, matching the response curve of the human eye. The central wavelength is 550nm and the bandwidth is 90nm.  The filter to be used is the Corning 3384 filter.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/VMagnitudeAtMinimumBrightness">
@@ -50782,8 +50783,8 @@
     <rdf:Description rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/ZenithDistance">
         <om:symbol>z</om:symbol>
         <om:alternativeLabel xml:lang="en">zenith angle</om:alternativeLabel>
-        <rdfs:comment xml:lang="en">The angular distance on the celestial sphere measured along the great circle from the zenith to the celestial object. z = 90° - h.</rdfs:comment>
         <rdfs:label xml:lang="nl">zenitafstand</rdfs:label>
+        <rdfs:comment xml:lang="en">The angular distance on the celestial sphere measured along the great circle from the zenith to the celestial object. z = 90° - h.</rdfs:comment>
         <om:alternativeLabel xml:lang="nl">zenithoek</om:alternativeLabel>
         <rdfs:label xml:lang="en">zenith distance</rdfs:label>
     </rdf:Description>
