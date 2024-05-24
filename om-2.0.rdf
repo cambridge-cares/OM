@@ -18332,6 +18332,7 @@
   <!-- Entropy Upper Ontology -->
   <!-- Heat Capacity Upper Ontology -->
   <!-- Power Subclass Upper Ontology -->
+  <!-- pH Level Upper Ontology -->
   <!-- Specific Entropy Upper Ontology -->
   <!-- Specific Heat Capacity Upper Ontology -->
   <!-- Thermal Conductivity Upper Ontology -->
@@ -18689,6 +18690,13 @@
     <om:commonlyHasUnit rdf:resource="&om;horsepower-Metric"/>
     <om:commonlyHasUnit rdf:resource="&om;horsepower-Water"/>
     <om:commonlyHasUnit rdf:resource="&om;tonOfRefrigeration"/>
+  </owl:Class>
+
+  <!-- pH Level Upper Ontology -->
+
+  <owl:Class rdf:about="&om;pHLevel">
+    <rdfs:label xml:lang="en">pH Level</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&om;Quantity"/>
   </owl:Class>
 
   <!-- Specific Entropy Upper Ontology -->
