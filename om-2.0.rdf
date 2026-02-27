@@ -4,7 +4,7 @@
 
   <!-- Version 2.0 -->
 
-  <!-- (c) 2005-2024 Hajo Rijgersberg, Don Willems, Jan Top, Wageningen University and Research Centre, The Netherlands. This document is available under Creative Common License, version 4.0. You are free to Share — to copy, distribute, display, and perform the work and to Remix — to make derivative works; under the condition of Attribution: You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work). The publisher does not accept any liability for the inaccuracies in this document. -->
+  <!-- (c) 2005-2025 Hajo Rijgersberg, Don Willems, Jan Top, Wageningen University and Research Centre, The Netherlands. This document is available under Creative Common License, version 4.0. You are free to Share — to copy, distribute, display, and perform the work and to Remix — to make derivative works; under the condition of Attribution: You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work). The publisher does not accept any liability for the inaccuracies in this document. -->
 
   <!DOCTYPE rdf:RDF [
     <!ENTITY rdf     "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -42,17 +42,17 @@
   >
 
   <owl:Ontology rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2">
-    <rdfs:label xml:lang="en">Ontology of units of Measure (OM)</rdfs:label>
-    <rdfs:label xml:lang="nl">Ontologie van Maateenheden (OM)</rdfs:label>
-    <rdfs:label xml:lang="ja">測定単位のオントロジー (OM)</rdfs:label>
-    <owl:versionInfo xml:lang="en">2.0.51</owl:versionInfo>
+    <dc:title xml:lang="en">Ontology of units of Measure (OM)</dc:title>
+    <dc:title xml:lang="nl">Ontologie van Maateenheden (OM)</dc:title>
+    <dc:title xml:lang="ja">測定単位のオントロジー (OM)</dc:title>
+    <owl:versionInfo xml:lang="en">2.0.59</owl:versionInfo>
     <!-- <dc:identifier>http://www.wurvoc.org/vocabularies/om-2.0/</dc:identifier> -->
     <dc:identifier>http://www.ontology-of-units-of-measure.org/vocabularies/om-2/</dc:identifier>
-    <dc:date>2024/02/08</dc:date>
-    <rdfs:comment xml:lang="en">The Ontology of units of Measure (OM) 2.0 models concepts and relations important to scientific research. It has a strong focus on units, quantities, measurements, and dimensions.</rdfs:comment>
-    <rdfs:comment xml:lang="ja">測定単位のオントロジー (Ontology of units of Measure; OM) は，科学技術にとって重要な概念及び関係をモデル化する。OMは，単位・量・測定・次元に特に焦点を当てている。</rdfs:comment>
-    <wv:logo>http://www.wurvoc.org/images/vocabularies/om-logo.jpg</wv:logo>
-    <wv:illustration>http://www.wurvoc.org/images/vocabularies/om-illustration.jpg</wv:illustration>
+    <dc:date>2025/02/24</dc:date>
+    <dc:format xml:lang="en">OWL</dc:format>
+    <dc:description xml:lang="en">The Ontology of units of Measure (OM) 2.0 models concepts and relations important to scientific research. It has a strong focus on units, quantities, measures, and dimensions.</dc:description>
+    <dc:description xml:lang="nl">De Ontologie van Maateenheden (OM) 2.0 modelleert concepten en relaties die belangrijk zijn voor wetenschappelijk onderzoek. Het heeft een sterke focus op eenheden, grootheden, maten, en dimensies.</dc:description>
+    <dc:description xml:lang="ja">測定単位のオントロジー (Ontology of units of Measure; OM) は，科学技術にとって重要な概念及び関係をモデル化する。OMは，単位・量・測定・次元に特に焦点を当てている。</dc:description>
     <dc:creator xml:lang="en">Hajo Rijgersberg, Don Willems, Jan Top</dc:creator>
     <!-- <dc:license xml:lang="en">This document is available under Creative Common License, version 4.0. You are free to Share — to copy, distribute, display, and perform the work and to Remix — to make derivative works; under the condition of Attribution: You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work). The publisher does not accept any liability for the inaccuracies in this document.</dc:license> -->
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
@@ -7112,6 +7112,7 @@
   <!-- Reciprocal Cubic Metre Ontology -->
   <!-- Reciprocal Cubic Metre Multiples and Submultiples Ontology -->
   <!-- Reciprocal Litre Ontology -->
+  <!-- Number Density Unit Ontology -->
   <!-- Reciprocal Metre Ontology -->
   <!-- Wavenumber Unit Ontology -->
   <!-- Metre Per Metre Ontology -->
@@ -7223,6 +7224,7 @@
   <!-- Watt Per Steradian Square Metre Ontology -->
   <!-- Watt Per Steradian Square Metre Hertz Ontology -->
   <!-- Square Metre Per Gram Ontology -->
+  <!-- Square Metre Per Cubic Centimetre Ontology -->
   <!-- Megametre Per Kilojoule Ontology -->
   <!-- Megaeuro Per Petajoule Ontology -->
   <!-- Megaeuro Per Megawatt Ontology -->
@@ -9349,7 +9351,11 @@
     <owl:equivalentClass>
       <owl:Class>
         <owl:oneOf rdf:parseType="Collection">
+          <om:UnitExponentiation rdf:about="&om;reciprocalCubicAngstrom"/>
           <om:UnitExponentiation rdf:about="&om;reciprocalCubicCentimetre"/>
+          <om:UnitExponentiation rdf:about="&om;reciprocalCubicMillimetre"/>
+          <om:UnitExponentiation rdf:about="&om;reciprocalCubicMicrometre"/>
+          <om:UnitExponentiation rdf:about="&om;reciprocalCubicNanometre"/>
           <om:UnitExponentiation rdf:about="&om;reciprocalLitre"/>
           <om:UnitExponentiation rdf:about="&om;reciprocalCubicMetre"/>
           <om:UnitExponentiation rdf:about="&om;reciprocalCubicParsec"/>
@@ -9385,8 +9391,38 @@
     <om:hasDimension rdf:resource="&om;numberDensity-Dimension"/>
   </om:UnitExponentiation>
 
+  <om:UnitExponentiation rdf:about="&om;reciprocalCubicMillimetre">
+    <rdfs:label xml:lang="en">reciprocal cubic millimetre</rdfs:label>
+    <rdfs:label xml:lang="nl">omgekeerde kubieke millimeter</rdfs:label>
+    <om:symbol>mm-3</om:symbol>
+    <om:hasBase rdf:resource="&om;millimetre"/>
+    <om:hasExponent rdf:datatype="&xsd;integer">-3</om:hasExponent>
+    <om:hasDimension rdf:resource="&om;numberDensity-Dimension"/>
+  </om:UnitExponentiation>
+
+  <om:UnitExponentiation rdf:about="&om;reciprocalCubicMicrometre">
+    <rdfs:label xml:lang="en">reciprocal cubic micrometre</rdfs:label>
+    <rdfs:label xml:lang="nl">omgekeerde kubieke micrometer</rdfs:label>
+    <om:symbol>μm-3</om:symbol>
+    <om:hasBase rdf:resource="&om;micrometre"/>
+    <om:hasExponent rdf:datatype="&xsd;integer">-3</om:hasExponent>
+    <om:hasDimension rdf:resource="&om;numberDensity-Dimension"/>
+  </om:UnitExponentiation>
+
+  <om:UnitExponentiation rdf:about="&om;reciprocalCubicNanometre">
+    <rdfs:label xml:lang="en">reciprocal cubic nanometre</rdfs:label>
+    <rdfs:label xml:lang="nl">omgekeerde kubieke nanometer</rdfs:label>
+    <om:symbol>nm-3</om:symbol>
+    <om:hasBase rdf:resource="&om;nanometre"/>
+    <om:hasExponent rdf:datatype="&xsd;integer">-3</om:hasExponent>
+    <om:hasDimension rdf:resource="&om;numberDensity-Dimension"/>
+  </om:UnitExponentiation>
+
   <owl:Class rdf:about="&om;NumberDensity">
     <om:commonlyHasUnit rdf:resource="&om;reciprocalCubicCentimetre"/>
+    <om:commonlyHasUnit rdf:resource="&om;reciprocalCubicMillimetre"/>
+    <om:commonlyHasUnit rdf:resource="&om;reciprocalCubicMicrometre"/>
+    <om:commonlyHasUnit rdf:resource="&om;reciprocalCubicNanometre"/>
   </owl:Class>
 
   <!-- Reciprocal Litre Ontology -->
@@ -9402,6 +9438,20 @@
 
   <owl:Class rdf:about="&om;NumberDensity">
     <om:commonlyHasUnit rdf:resource="&om;reciprocalLitre"/>
+  </owl:Class>
+
+  <!-- Number Density Unit Ontology -->
+
+  <om:UnitExponentiation rdf:about="&om;reciprocalCubicAngstrom">
+    <rdfs:label xml:lang="en">reciprocal cubic angstrom</rdfs:label>
+    <om:symbol>Å-3</om:symbol>
+    <om:hasBase rdf:resource="&om;angstrom"/>
+    <om:hasExponent rdf:datatype="&xsd;integer">-3</om:hasExponent>
+    <om:hasDimension rdf:resource="&om;numberDensity-Dimension"/>
+  </om:UnitExponentiation>
+
+  <owl:Class rdf:about="&om;NumberDensity">
+    <om:commonlyHasUnit rdf:resource="&om;reciprocalCubicAngstrom"/>
   </owl:Class>
 
   <!-- Reciprocal Metre Ontology -->
@@ -17047,6 +17097,20 @@
     <om:hasDenominator rdf:resource="&om;gram"/>
   </om:UnitDivision>
 
+  <!-- Square Metre Per Cubic Centimetre Ontology -->
+
+  <om:UnitDivision rdf:about="&om;squareMetrePerCubicCentimetre">
+    <rdfs:label xml:lang="en">square metre per cubic centimetre</rdfs:label>
+    <rdfs:label xml:lang="nl">vierkante meter per kubieke centimeter</rdfs:label>
+    <!-- <rdfs:comment xml:lang="en">Square metre per cubic centimetre is a unit of .</rdfs:comment> -->
+    <!-- <om:longcomment xml:lang="en">Square metre per cubic centimetre is a unit of  defined as square metre divided by cubic centimetre. Square metre per cubic centimetre is a derived unit in the International System of Units.</om:longcomment> -->
+    <om:symbol>m2/cm3</om:symbol>
+    <om:alternativeSymbol>m2 cm-3</om:alternativeSymbol>
+    <om:alternativeSymbol>m2·cm-3</om:alternativeSymbol>
+    <om:hasNumerator rdf:resource="&om;squareMetre"/>
+    <om:hasDenominator rdf:resource="&om;cubicCentimetre"/>
+  </om:UnitDivision>
+
   <!-- Megametre Per Kilojoule Ontology -->
 
   <om:UnitDivision rdf:about="&om;megametrePerKilojoule">
@@ -19775,8 +19839,8 @@
     <rdfs:label xml:lang="nl">watt per vierkante meter kelvin</rdfs:label>
     <om:symbol>W/m2 K</om:symbol>
     <om:alternativeSymbol>W/(m2·K)</om:alternativeSymbol>
-    <om:alternativeSymbol>W-1 m2 K</om:alternativeSymbol>
-    <om:alternativeSymbol>W-1·m2·K</om:alternativeSymbol>
+    <om:alternativeSymbol>W m-2 K-1</om:alternativeSymbol>
+    <om:alternativeSymbol>W·m-2·K-1</om:alternativeSymbol>
     <om:hasNumerator rdf:resource="&om;watt"/>
     <om:hasDenominator rdf:resource="&om;squareMetreKelvin"/>
     <om:hasDimension rdf:resource="&om;heatTransferCoefficient-Dimension"/>
@@ -19983,8 +20047,8 @@
     <rdfs:label xml:lang="nl">joule per kubieke meter kelvin</rdfs:label>
     <om:symbol>J/m3 K</om:symbol>
     <om:alternativeSymbol>J/(m3·K)</om:alternativeSymbol>
-    <om:alternativeSymbol>J-1 m3 K</om:alternativeSymbol>
-    <om:alternativeSymbol>J-1·m3·K</om:alternativeSymbol>
+    <om:alternativeSymbol>J m-3 K-1</om:alternativeSymbol>
+    <om:alternativeSymbol>J·m-3·K-1</om:alternativeSymbol>
     <om:hasNumerator rdf:resource="&om;joule"/>
     <om:hasDenominator rdf:resource="&om;cubicMetreKelvin"/>
     <om:hasDimension rdf:resource="&om;volumetricHeatCapacity-Dimension"/>
@@ -39715,14 +39779,14 @@
 
   <owl:Class rdf:about="&om;CarbonDioxideEquivalentMass">
     <rdfs:label xml:lang="en">carbon dioxide equivalent mass</rdfs:label>
-    <rdfs:subClassOf rdf:resource="&om;Mass"/>
+    <rdfs:subClassOf rdf:resource="&om;Quantity"/>
   </owl:Class>
 
   <!-- Carbon Dioxide Equivalent Mass Upper Ontology -->
 
   <owl:Class rdf:about="&om;CarbonDioxideEquivalentMassPerEnergy">
     <rdfs:label xml:lang="en">carbon dioxide equivalent mass per energy</rdfs:label>
-    <rdfs:subClassOf rdf:resource="&om;MassPerEnergy"/>
+    <rdfs:subClassOf rdf:resource="&om;Quantity"/>
   </owl:Class>
 
   <!-- Unit of Measure Ontologies -->
@@ -39738,8 +39802,8 @@
     <rdfs:label xml:lang="en">gram of carbon dioxide equivalent</rdfs:label>
     <om:symbol>gCO2eq</om:symbol>
     <rdf:type rdf:resource="&om;SingularUnit"/>
-    <!-- hasDefinition --> <om:hasFactor rdf:datatype="&xsd;decimal">1</om:hasFactor>
-    <!-- hasDefinition --> <om:hasUnit rdf:resource="&om;gram"/>
+    <!-- hasDefinition --> <om:hasFactor rdf:datatype="&xsd;decimal">0.0010</om:hasFactor>
+    <!-- hasDefinition --> <om:hasUnit rdf:resource="&om;kilogramOfCarbonDioxideEquivalent"/>
   </om:Unit>
 
   <om:PrefixedUnit rdf:about="&om;kilogramOfCarbonDioxideEquivalent">
@@ -39753,8 +39817,8 @@
     <rdfs:label xml:lang="en">tonne of carbon dioxide equivalent</rdfs:label>
     <om:symbol>tCO2eq</om:symbol>
     <rdf:type rdf:resource="&om;SingularUnit"/>
-    <!-- hasDefinition --> <om:hasFactor rdf:datatype="&xsd;decimal">1</om:hasFactor>
-    <!-- hasDefinition --> <om:hasUnit rdf:resource="&om;tonne"/>
+    <!-- hasDefinition --> <om:hasFactor rdf:datatype="&xsd;decimal">1000</om:hasFactor>
+    <!-- hasDefinition --> <om:hasUnit rdf:resource="&om;kilogramOfCarbonDioxideEquivalent"/>
   </om:Unit>
 
   <owl:Class rdf:about="&om;CarbonDioxideEquivalentMass">
@@ -39765,7 +39829,7 @@
 
   <owl:Class rdf:about="&om;CarbonDioxideEquivalentMassUnit">
     <rdfs:label xml:lang="en">carbon dioxide equivalent mass unit</rdfs:label>
-    <rdfs:subClassOf rdf:resource="&om;MassUnit"/>
+    <rdfs:subClassOf rdf:resource="&om;Unit"/>
     <owl:equivalentClass>
       <owl:Class>
         <owl:oneOf rdf:parseType="Collection">
@@ -39824,7 +39888,7 @@
 
   <owl:Class rdf:about="&om;CarbonDioxideEquivalentMassPerEnergyUnit">
     <rdfs:label xml:lang="en">carbon dioxide equivalent mass per energy unit</rdfs:label>
-    <rdfs:subClassOf rdf:resource="&om;MassPerEnergyUnit"/>
+    <rdfs:subClassOf rdf:resource="&om;Unit"/>
     <owl:equivalentClass>
       <owl:Class>
         <owl:oneOf rdf:parseType="Collection">
